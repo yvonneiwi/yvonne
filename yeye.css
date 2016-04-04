@@ -114,34 +114,21 @@
     width: 1000px;
     height: 280px;
     background-color: #829b9e;
+    text-align: center;
+}
+
+.div-warp{
+    display: inline-block;
+    width: 850px;
+    height: 280px;
 }
 
 .div-block-1{
     display: block;
     float: left;
-    width: 220px;
+    width: 25%;
     height: 280px;
-}
-
-.div-block-2{
-    display: block;
-    float: left;
-    width: 220px;
-    height: 280px;
-}
-
-.div-block-3{
-    display: block;
-    float: left;
-    width: 220px;
-    height: 280px;   
-}
-
-.div-block-4{
-    display: block;
-    float: left;
-    width: 220px;
-    height: 280px;   
+    text-align: center;
 }
 
 .div-circle-3{
@@ -151,7 +138,6 @@
     border-radius: 50px;
     background-color: #dae1e2;
     margin-top: 71px;
-    margin-left: 120px;
 }
 
 .p-picture-3{
@@ -161,16 +147,6 @@
     margin: 30px;
 }
 
-.div-circle-4{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #dae1e2;
-    margin-top: 71px;
-    margin-left: 120px;
-}
-
 .p-picture-4{
     display: inline-block;
     width: 43.98px;
@@ -178,31 +154,11 @@
     margin: 30px;
 }
 
-.div-circle-5{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #dae1e2;
-    margin-top: 71px;
-    margin-left: 120px;
-}
-
 .p-picture-5{
     display: inline-block;
     width: 43.98px;
     height: 43.98px;   
     margin: 30px;
-}
-
-.div-circle-6{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #dae1e2;
-    margin-top: 71px;
-    margin-left: 120px;
 }
 
 .p-picture-6{
@@ -219,6 +175,178 @@
     margin-top: 1px;
 }
 
+.div-href{
+    text-decoration: none
+}
 
+.div-google-1{
+    display: inline-block;
+    width: 909px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #d8f0f3;
+}
 
+.div-google-2{
+    display: inline-block;
+    width: 899px;
+    height: 38px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #f7fcfd;
+}
 
+.p-google-1{
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    color: #d8f0f3;
+    margin: 8px;
+    float: left;
+}
+
+.p-picture-7{
+    width: 29.98px;
+    height: 29.98px;
+    float: right;
+    margin: 5px;
+}
+
+.div-axes-1{
+    display: block;
+    margin-left: 18%;
+    margin-top: 48px;
+    width: 7px;
+    height: 520px;
+    background-color: #d8f0f3;
+}
+
+.div-circle-a{
+    display: inline-block;
+    margin-left: -8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #f7fcfd;
+}
+
+.p-about-a{
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    color: #f8fcfd;
+    margin-left: 30px; 
+    margin-top: -28px;
+}
+
+.div-a-button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: -8px;
+}
+    
+.div-a-button:hover,
+.div-a-button:focus{
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.div-circle-b{
+    display: inline-blockl;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #f7fcfd;
+    margin-top: 89px;
+    margin-left: -5px;
+}
+
+.div-b-button{
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    text-align: center;
+    margin: -4px;
+}
+    
+.div-b-button:hover,
+.div-b-button:focus{
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.p-about-b{
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #f8fcfd;
+    margin-left: 30px; 
+    margin-top: -32px;
+}
+
+.div-line{
+    width: 67px;
+    height: 4px;
+    border-bottom:3px dashed #f7fcfd;
+    margin: -16px;
+    margin-left: 28px;
+}
+
+.p-picture-8{
+    width: 284px;
+    height: 377px;
+    margin-left: 110px; 
+    margin-top: -100px; 
+    background-color: #f7fcfd;
+}
+
+.p-picture-9{
+    width: 276px;
+    height: 368px;
+    margin: 4px;
+}
+
+.p-picture-10{
+    width: 276px;
+    height: 20px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin-left: 4px; 
+    margin-top: -28px; 
+}
+
+.p-KFC{
+    font-family: Microsoft YaHei;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 9px;
+    margin-top: -18px;
+}
+
+.div-circle-c{
+    margin-top: 90px;
+}
+
+.div-line-1{
+    width: 90px;
+    height: 4px;
+    border-bottom:3px dashed #f7fcfd;
+    margin: -16px;
+    margin-left: 30px;    
+}
+
+.p-picture-11{
+    width: 668px;
+    height: 378px;
+    background-color: #eff9fa;
+    margin-left: 140px;
+    margin-top: -90px;
+}
+
+.p-picture-12{
+    width: 658px;
+    height: 368.01px;
+    margin: 5px;    
+}
